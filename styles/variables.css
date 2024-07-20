@@ -2,3 +2,26 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --basic-text-style: "IBM Plex mono", sans-serif;
+  --font-weight-bold: bold;
+  --rec-decor-visibility: visible;
+
+  --background-image: url("../images/cover-image-dark.png");
+  --navy-blue: #000028;
+  --pink: #db00ff;
+  --light-pink: #f1b2ce;
+  --hot-pink: #ff0070;
+
+  --pale-pink: #fff1f7;
+  --fuchsia: #ffc2e6;
+  --gray: #353430;
+  --pinkish: #ff8dcb;
+
+  --background-color: var(--navy-blue, #000028);
+  --header-text-color: var(--pink, #db00ff);
+  --text-color: var(--light-pink, #f1b2ce);
+  --accent-color: var(--hot-pink, #ff0070);
+  --header__decor-element: var(--hot-pink, #ff0070);
+  --secondary-color: var(--hot-pink, #ff0070);
+}
