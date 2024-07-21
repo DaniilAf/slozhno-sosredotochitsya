@@ -8,6 +8,7 @@
     --background-image,
     url("../images/cover-image-dark.png")
   );
+  background-color: var( --background-color, #000028);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -18,6 +19,8 @@
 .header {
   display: grid;
   align-items: start;
+  height: 100vh;
+  min-height: 668px;
 }
 
 .stretching {
@@ -132,8 +135,8 @@
   display: grid;
   gap: 50px;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  background-color: var(--background-color, #000028);
   inset-block-start: 40px;
+  background-color: var(--blok-color, #000028);
 }
 
 .section-content {
@@ -210,7 +213,9 @@
 
 .footer {
   place-items: center;
-  background-color: var(--background-color, #000028);
+  height: 100vh;
+  min-height: 668px;;
+  background-color: var(--blok-color, #000028);
 }
 
 .footer-title {
@@ -233,6 +238,8 @@
 
   .main {
     padding-inline-start: 0;
+    gap: 80px;
+    padding: 60px 20px;
   }
 
   .header {
@@ -245,11 +252,6 @@
 
   .separation_main__content-list {
     grid-column-start: span 2;
-  }
-
-  .main {
-    gap: 80px;
-    padding: 60px 20px;
   }
 
   .main__image-list {

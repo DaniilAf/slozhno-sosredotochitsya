@@ -11,6 +11,7 @@
   --accent-color: var(--hot_pink, #ff0070);
   --header__decor-element: var(--hot_pink, #ff0070);
   --secondary-color: var(--hot-pink, #ff0070);
+  --blok-color: var(--navy-blue, #000028);
 
   --rec-decor-visibility: visible;
 }
