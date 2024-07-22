@@ -4,14 +4,19 @@
   переключая тему
 */
 
+
+
 .page.theme_dark {
+  --background-image: url("../images/cover-image-dark.png");
   --background-color: var(--navy-blue, #000028);
   --header-text-color: var(--pink, #db00ff);
   --text-color: var(--light-pink, #f1b2ce);
   --accent-color: var(--hot_pink, #ff0070);
   --header__decor-element: var(--hot_pink, #ff0070);
   --secondary-color: var(--hot-pink, #ff0070);
-  --blok-color: var(--navy-blue, #000028);
+  --hover-outline: var(--pink-opasity, #ff007060);
+  --title-section-color: var(--navy-blue, #000028);
 
   --rec-decor-visibility: visible;
 }
+

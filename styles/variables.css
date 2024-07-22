@@ -12,11 +12,13 @@
   --pink: #db00ff;
   --light-pink: #f1b2ce;
   --hot-pink: #ff0070;
+  --pink-opasity: #ff007060;
 
   --pale-pink: #fff1f7;
   --fuchsia: #ffc2e6;
   --gray: #353430;
   --pinkish: #ff8dcb;
+  --gray-opasity: #35343060;
 
   --background-color: var(--navy-blue, #000028);
   --header-text-color: var(--pink, #db00ff);
@@ -24,5 +26,6 @@
   --accent-color: var(--hot-pink, #ff0070);
   --header__decor-element: var(--hot-pink, #ff0070);
   --secondary-color: var(--hot-pink, #ff0070);
-  --blok-color: var(--navy-blue, #000028);
+  --hover-outline: var(--pink-opasity, #ff007060);
+  --title-section-color: var(--navy-blue, #000028);
 }

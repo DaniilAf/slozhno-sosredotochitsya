@@ -14,6 +14,8 @@
   --header__decor-element: var(--gray, #353430);
   --secondary-color: var(--gray, #353430);
   --blok-color: var(--pale-pink, #fff1f7);
+  --hover-outline: var(--gray-opasity, #35343060);
+  --title-section-color: var(--gray, #353430);
 
   --rec-decor-visibility: hidden;
 }
@@ -28,7 +30,8 @@
     --accent-color: var(--pinkish, #ff8dcb);
     --header__decor-element: var(--gray, #353430);
     --secondary-color: var(--gray, #353430);
-    --blok-color: var(--pale-pink, #fff1f7);
+    --hover-outline: var(--gray-opasity, #35343060);
+    --title-section-color: var(--gray, #353430);
 
     --rec-decor-visibility: hidden;
   }
